@@ -15,8 +15,16 @@ module.exports = {
      },
      {
        test: /\.sass$/,
-       loaders: ["style", "css", "sass"]
+       loaders: ["style-loader", "css-loader", "sass-loader"]
      }
    ]
+  // loaders: {
+  //   test: /.scss$/,
+  //   loader: ExtractTextPlugin.extract(
+  //     'style-loader',
+  //     'css-loader!postcss-loader',
+  //     'sass-loader',
+  //   )
+  // }
  }
 };
