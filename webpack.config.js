@@ -1,4 +1,4 @@
-var webpack = require('webpack');
+const webpack = require('webpack')
 
 module.exports = {
  context: __dirname + "/src",
@@ -8,23 +8,11 @@ module.exports = {
    filename: "./bundle.js"
  },
  module: {
-   loaders: [
+   rules: [
      {
-       test: /\.css$/,
-       loaders: "style!css"
-     },
-     {
-       test: /\.sass$/,
-       loaders: ["style-loader", "css-loader", "sass-loader"]
+     test: /\.css$/,
+     use: [ "style-loader", "css-loader" ]
      }
    ]
-  // loaders: {
-  //   test: /.scss$/,
-  //   loader: ExtractTextPlugin.extract(
-  //     'style-loader',
-  //     'css-loader!postcss-loader',
-  //     'sass-loader',
-  //   )
-  // }
- }
-};
+ },
+}
