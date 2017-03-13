@@ -24,6 +24,7 @@
   "homepage": "https://github.com/matsad3547/apple-creek-farm#readme",
   "devDependencies": {
     "css-loader": "^0.26.4",
+    "file-loader": "^0.10.1",
     "mocha": "^3.2.0",
     "style-loader": "^0.13.2",
     "webpack": "^2.2.1",
