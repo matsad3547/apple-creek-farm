@@ -101,7 +101,7 @@ exports = module.exports = __webpack_require__(2)();
 
 
 // module
-exports.push([module.i, "@include responsive-font(5vw, 35px, 150px, 50px);\n\n@-ms-viewport{\n  width: device-width;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  /*background-color: darkslategray;*/\n}\n", ""]);
+exports.push([module.i, "@include responsive-font(5vw, 35px, 150px, 50px);\n\n@-ms-viewport{\n  width: device-width;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-size: 16px;\n}\n\nbody {\n  /*background-color: darkslategray;*/\n}\n\nh1 {\n  font-size: 3.052em;\n}\n\nh2 {\n  font-size: 2.441em;\n}\n\nh1, h2 {\n  text-align: center;\n}\n\nnav ul {\n  padding-top: 4em;\n}\n\nnav li{\n  display: inline;\n}\n\nnav a {\n  font-size: 1.953em;\n}\n\n.header-icons {\n  position: relative;\n  float: right;\n}\n\n.header-icons p {\n  font-size: .75em;\n}\n\n.sidebar a {\n  font-size: 1.563em;\n}\n\n.parallax {\n  height: 100%;\n  background-attachment: fixed;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n\nfooter {\n  text-align: center;\n}\n", ""]);
 
 // exports
 

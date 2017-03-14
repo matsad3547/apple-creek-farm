@@ -8,8 +8,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 body {
   /*background-color: darkslategray;*/
+}
+
+h1 {
+  font-size: 3.052em;
+}
+
+h2 {
+  font-size: 2.441em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+nav ul {
+  padding-top: 4em;
+}
+
+nav li{
+  display: inline;
+}
+
+nav a {
+  font-size: 1.953em;
+}
+
+.header-icons {
+  position: relative;
+  float: right;
+}
+
+.header-icons p {
+  font-size: .75em;
+}
+
+.sidebar a {
+  font-size: 1.563em;
+}
+
+.parallax {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  text-align: center;
 }
