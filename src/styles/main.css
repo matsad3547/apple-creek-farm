@@ -32,8 +32,8 @@ h2 {
   font-size: 2.441em;
 }
 
-h1, h2 {
-  text-align: center;
+.logo {
+  float: left;
 }
 
 nav ul {
@@ -44,7 +44,7 @@ nav li {
   display: inline;
 }
 
-nav a {
+nav a, h3 {
   font-size: 1.953em;
 }
 
@@ -57,7 +57,7 @@ nav a {
   font-size: .75em;
 }
 
-.sidebar a {
+.sidebar a, h4 {
   font-size: 1.563em;
 }
 
