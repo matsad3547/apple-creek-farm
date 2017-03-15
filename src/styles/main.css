@@ -1,5 +1,10 @@
 @include responsive-font(5vw, 35px, 150px, 50px);
 
+@font-face {
+  font-family: 'Hoefler';
+  src: url('../fonts/ufonts.com_hoefler-text.ttf');
+}
+
 @-ms-viewport{
   width: device-width;
 }
@@ -13,6 +18,10 @@
 
 body {
   /*background-color: darkslategray;*/
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Hoefler', serif;
 }
 
 h1 {
