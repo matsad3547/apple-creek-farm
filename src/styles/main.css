@@ -30,6 +30,11 @@ nav > h1 {
   top: .25em;
 }
 
+hr {
+  width: 90%;
+  margin-left: 5%;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Hoefler', serif;
 }
