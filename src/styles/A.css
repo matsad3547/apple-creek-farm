@@ -1,19 +1,20 @@
 
 body {
   /*background-color: darkslategray;*/
+  padding: 1em 5em 0 4em;
 }
 
 nav {
   height: 9.5em;
   width: 100%;
   margin-top: -1em;
-  padding-top: 1em;
+  /*padding-top: 1em;*/
   /*position: fixed;*/
   background-color: white;
 }
 
 nav h1 {
-  margin: .25em 0 0 2em;
+  padding: .25em 0 0 0;
   float: left;
 }
 
@@ -21,7 +22,7 @@ nav ul {
   position: relative;
   float: right;
   bottom: 1.5em;
-  left: 7em;
+  left: 9em;
   padding: 0;
   margin: 0;
   width: auto;
@@ -42,8 +43,7 @@ nav ul {
 
 nav hr {
   position: relative;
-  top: 3.25em;
-  /*margin-bottom: 1em;*/
+  top: 4em;
 }
 
 a {
@@ -55,7 +55,7 @@ a:hover {
 }
 
 main img {
-  padding: 0 2em 2em 2em;
+  padding: 0 0 1em 1em;
   width: 75%;
 }
 
@@ -63,19 +63,14 @@ main h2 {
   padding: .5em;
 }
 
-main h3 {
-  text-align: left;
-  padding: 0 0 1em 6em;
-}
-
 main p {
-  padding: 0 3em 1em 3em;
+  padding: 0 0 2em 0;
 }
 
 .sidebar {
   float: left;
-  width: 12em;
-  padding: 0 0 0 2em;
+  width: 25%;
+  padding: 0 0 0 0;
 }
 
 .sidebar li {
@@ -84,37 +79,37 @@ main p {
 
 /*Farm and Farmers page*/
 
-.bio img {
+.bio h3 {
+  text-align: left;
+  padding: 0 0 1em 4em;
+}
+
+.bio img, .sm {
   float: left;
   width: 45%;
+  padding: 0 3em 0 0;
 }
 
 .abby {
-  min-height: 24em;
+  min-height: 20em;
 }
 
 .jake {
-  min-height: 30em;
+  min-height: 26em;
 }
 
 .farm {
-  min-height: 61em;
+  min-height: 55em;
 }
 
 .farm h3 {
-  padding: 0 0 1em 3.5em;
-}
-
-.farm img {
+  text-align: left;
+  padding: 0 0 1em 1em;
 }
 
 .lg {
   width: 100%;
-}
-
-.sm {
-  float: left;
-  width: 45%;
+  padding: 0 0 2em 0
 }
 
 footer {
