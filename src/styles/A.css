@@ -4,7 +4,12 @@ body {
 }
 
 nav {
-  height: 8em;
+  height: 9em;
+  width: 100%;
+  margin-top: -1em;
+  padding-top: 1em;
+  /*position: fixed;*/
+  background-color: white;
 }
 
 nav h1 {
@@ -27,7 +32,6 @@ nav ul {
 }
 
 .header-icons {
-  /*z-index: 1;*/
   top: 4em;
   right: 2em;
 }
@@ -44,26 +48,67 @@ a:hover {
   color: salmon;
 }
 
-img {
-  width: 70%;
-  margin-right: 3em;
+main img {
+  padding: 0 2em 2em 2em;
+  width: 75%;
 }
 
 main h2 {
-  margin: .25em;
+  padding: .5em;
+}
+
+main h3 {
+  text-align: left;
+  padding: 0 0 1em 6em;
 }
 
 main p {
-  margin: 0 3em 1em 3em;
+  padding: 0 3em 1em 3em;
 }
 
 .sidebar {
   float: left;
-  margin: 1em;
+  width: 12em;
+  padding: 0 0 0 2em;
 }
 
 .sidebar li {
   list-style: none;
+}
+
+/*Farm and Farmers page*/
+
+.bio img {
+  float: left;
+  width: 45%;
+}
+
+.abby {
+  min-height: 24em;
+}
+
+.jake {
+  min-height: 30em;
+}
+
+.farm {
+  min-height: 61em;
+}
+
+.farm h3 {
+  padding: 0 0 1em 3.5em;
+}
+
+.farm img {
+}
+
+.lg {
+  width: 100%;
+}
+
+.sm {
+  float: left;
+  width: 45%;
 }
 
 footer {
