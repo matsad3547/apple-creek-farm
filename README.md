@@ -1,8 +1,8 @@
-#Apple Creek Farm - Bowdouinham, ME
+# Apple Creek Farm - Bowdouinham, ME
 
 This is a webpage for Apple Creek Farm, located in Bowdouinham Maine.  
 
-###To-Do
+### To-Do
 
 * Create A and B CSS files.
 * Add background images for each section.
