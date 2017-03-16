@@ -77,6 +77,7 @@ nav ul {
 
 nav li {
   display: inline;
+  text-decoration: none;
 }
 
 main {

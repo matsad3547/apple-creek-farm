@@ -3,16 +3,12 @@ body {
   /*background-color: darkslategray;*/
 }
 
-/*h1, h2 {
-  text-align: center;
-}*/
-
 nav {
-  height: 9em;
+  height: 8em;
 }
 
 nav h1 {
-  margin: .25em 0 0 1em;
+  margin: .25em 0 0 2em;
   float: left;
 }
 
@@ -20,9 +16,9 @@ nav ul {
   position: relative;
   float: right;
   bottom: 1.5em;
-  left: 8em;
+  left: 7em;
   padding: 0;
-  margin: 0 0 0 0;
+  margin: 0;
   width: auto;
 }
 
@@ -50,16 +46,26 @@ a:hover {
 
 img {
   width: 70%;
+  margin-right: 3em;
+}
+
+main h2 {
+  margin: .25em;
+}
+
+main p {
+  margin: 0 3em 1em 3em;
 }
 
 .sidebar {
   float: left;
+  margin: 1em;
 }
 
-.products {
-
+.sidebar li {
+  list-style: none;
 }
 
-.where_to_buy {
-
+footer {
+  margin: 1em;
 }
