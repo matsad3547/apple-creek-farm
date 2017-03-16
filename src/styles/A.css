@@ -3,6 +3,22 @@ body {
   /*background-color: darkslategray;*/
 }
 
-h1, h2 {
+/*h1, h2 {
   text-align: center;
+}*/
+
+/*.logo {
+  display: none;
+}*/
+
+/*nav > h1 {
+  float: left;
+}*/
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: salmon;
 }

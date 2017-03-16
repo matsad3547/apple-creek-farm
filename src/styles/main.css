@@ -13,11 +13,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 2vw;
+  font-family: 'Cardo', serif;
 }
 
 body {
   /*background-color: darkslategray;*/
+}
+
+nav {
+  text-align: center;
+}
+
+nav > h1 {
+  position: relative;
+  top: .25em;
 }
 
 h1, h2, h3, h4 {
@@ -32,43 +42,45 @@ h2 {
   font-size: 2.441em;
 }
 
+h3 {
+  font-size: 1.953em;
+}
+
+a, h4 {
+  font-size: 1.563em;
+}
+
 .logo {
+  position: relative;
   float: left;
+  top: -1em;
+}
+
+.header-icons {
+  position: relative;
+  float: right;
+  top: -2em;
+}
+
+.header-icons p, {
+  font-size: .75em;
 }
 
 nav ul {
-  padding-top: 4em;
+  text-align: center;
+  width: 54%;
+  margin-left: 23%;
+  padding: 4em 0 1em 0;
 }
 
 nav li {
   display: inline;
 }
 
-nav a, h3 {
-  font-size: 1.953em;
-}
-
-.header-icons {
-  position: relative;
-  float: right;
-}
-
-.header-icons p {
-  font-size: .75em;
-}
-
-.sidebar a, h4 {
-  font-size: 1.563em;
-}
-
-.parallax {
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 footer {
   text-align: center;
+}
+
+footer a {
+  font-size: 1em;
 }
