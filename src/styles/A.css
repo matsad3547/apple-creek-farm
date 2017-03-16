@@ -7,13 +7,38 @@ body {
   text-align: center;
 }*/
 
-/*.logo {
-  display: none;
-}*/
+nav {
+  height: 9em;
+}
 
-/*nav > h1 {
+nav h1 {
+  margin: .25em 0 0 1em;
   float: left;
-}*/
+}
+
+nav ul {
+  position: relative;
+  float: right;
+  bottom: 1.5em;
+  left: 8em;
+  padding: 0;
+  margin: 0 0 0 0;
+  width: auto;
+}
+
+.logo {
+  display: none;
+}
+
+.header-icons {
+  /*z-index: 1;*/
+  top: 4em;
+  right: 2em;
+}
+
+.header-icons a, p {
+  font-size: .75em;
+}
 
 a {
   color: gray;
@@ -21,4 +46,20 @@ a {
 
 a:hover {
   color: salmon;
+}
+
+img {
+  width: 70%;
+}
+
+.sidebar {
+  float: left;
+}
+
+.products {
+
+}
+
+.where_to_buy {
+
 }
