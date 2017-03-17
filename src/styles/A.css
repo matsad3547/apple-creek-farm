@@ -75,6 +75,7 @@ main h2 {
 
 main p {
   padding: 0 0 2em 0;
+  text-align: justify;
 }
 
 .sidebar {
