@@ -1,10 +1,5 @@
 @include responsive-font(5vw, 35px, 150px, 50px);
 
-@font-face {
-  font-family: 'Hoefler';
-  src: url('../fonts/ufonts.com_hoefler-text.ttf');
-}
-
 @-ms-viewport{
   width: device-width;
 }
@@ -14,7 +9,6 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 2vw;
-  font-family: 'Cardo', serif;
 }
 
 body {
@@ -32,10 +26,6 @@ nav > h1 {
 
 hr {
   width: 100%;
-}
-
-h1, h2, h3, h4 {
-  font-family: 'Hoefler', serif;
 }
 
 /*modular scale: 1.25*/

@@ -2,6 +2,13 @@ body {
   background-color: lightgray;
 }
 
+.logo {
+  position: relative;
+  top: .5em;
+  left: 2em;
+  width: 20%;
+}
+
 
 .parallax {
   height: 100%;

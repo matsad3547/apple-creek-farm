@@ -1,7 +1,18 @@
+@font-face {
+  font-family: 'Hoefler';
+  src: url('../fonts/ufonts.com_hoefler-text.ttf');
+}
+* {
+  font-family: 'Cardo', serif;
+}
 
 body {
   /*background-color: darkslategray;*/
   padding: 1em 5em 0 4em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Hoefler', serif;
 }
 
 nav {
