@@ -19,10 +19,10 @@ hr {
 
 }
 
-.logo {
+.header-logo {
   position: relative;
   top: -1em;
-  left: 2em;
+  right: 12em;
   width: 20%;
 }
 
@@ -46,15 +46,16 @@ main p {
 }
 
 ul {
-  padding: .75em 0;
+  background-color: rgba(200, 200, 200, 0.3);
+  border-radius: 30px;
+  text-align: center;
+  padding: .5em 0;
   margin-left: 8%;
-  width: 80%;
-  display: table;
-}
-
-li {
-  display: inline;
-  display: table-cell;
+  width: 25%;
+  position: relative;
+  top: 1em;
+  right: 2em;
+  line-height: 2em;
 }
 
 a {
@@ -62,7 +63,7 @@ a {
 }
 
 .parallax a {
-  color: #d0d2d2;
+  color: white;
   text-shadow: 1px 1px black;
 }
 
@@ -74,18 +75,14 @@ a:hover {
   height: 20em;
   width: 100%;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hr {
-  /*padding-top: 7em;*/
+  position: 0 em;
   background-image: url('../images/chickens1.png');
-}
-
-.hr ul {
-  margin-left: 19%;
 }
 
 .ab {
@@ -97,14 +94,11 @@ a:hover {
   background-image: url('../images/sheep1.png')
 }
 
-.pr ul {
-  margin-left: 15%;
-}
-
 .wtb {
+  background-position: 0 4em;
   background-image: url('../images/geese1.png');
 }
 
-.wtb ul {
-  margin-left: 14%;
+.footer-logo, .footer-icons {
+  display: none;
 }
