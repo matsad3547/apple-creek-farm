@@ -7,16 +7,23 @@
 }
 
 body {
-  /*background-color: darkslategray;*/
-  padding: 1em 5em 0 4em;
+  padding: 1em 5em 1em 4em;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Hoefler', serif;
 }
 
+.header-logo {
+  display: none;
+}
+
+.header-icons {
+  display: none;
+}
+
 nav {
-  height: 9.5em;
+  height: 8em;
   width: 100%;
   margin-top: -1em;
   /*padding-top: 1em;*/
@@ -25,15 +32,14 @@ nav {
 }
 
 nav h1 {
+  position: absolute;
   padding: .25em 0 0 0;
-  float: left;
 }
 
 nav ul {
   position: relative;
-  float: right;
-  bottom: 1.5em;
-  left: 9em;
+  top: 1.5em;
+  left: 10.5em;
   padding: 0;
   margin: 0;
   width: auto;
@@ -53,7 +59,7 @@ nav ul {
 
 nav hr {
   position: relative;
-  top: 4em;
+  top: 5em;
 }
 
 a {
@@ -64,10 +70,7 @@ a:hover {
   color: salmon;
 }
 
-main img {
-  padding: 0 0 1em 1em;
-  width: 75%;
-}
+/*Main Styling*/
 
 main h2 {
   padding: .5em;
@@ -76,6 +79,11 @@ main h2 {
 main p {
   padding: 0 0 2em 0;
   text-align: justify;
+}
+
+main img {
+  padding: 0 0 1em 1em;
+  width: 75%;
 }
 
 .sidebar {
@@ -123,6 +131,20 @@ main p {
   padding: 0 0 2em 0
 }
 
-footer {
-  margin: 1em;
+/*Footer Styling*/
+
+.footer-logo {
+  width: 10em;
+  float: left;
+}
+
+.footer-icons {
+  position: relative;
+  left: 16em;
+  bottom: 6em;
+}
+
+.contact {
+  width: 15em;
+  margin-left: 13em;
 }
