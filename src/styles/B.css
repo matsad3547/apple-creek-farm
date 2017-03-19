@@ -1,6 +1,14 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
   /*background-color: lightgray;*/
   /*padding: 1em 5em 0 5em;*/
+}
+
+h1, h2, h3, h4, a {
+  font-family: 'Marcellus', serif;
 }
 
 li {
@@ -22,17 +30,20 @@ hr {
 .header-logo {
   position: relative;
   top: -1em;
-  right: 12em;
+  right: 13em;
   width: 20%;
 }
 
-.header-icons {
-  font-size: .5em;
-  top: -2em;
-  right: 3em;
+.header-icons  {
+  top: -.7em;
+  right: 2.5em;
 }
 
-main img {
+.header-icons a, .header-icons p {
+  font-size: .9em;
+}
+
+.hm {
   display: none;
 }
 
@@ -41,13 +52,13 @@ main h2 {
 }
 
 main p {
-  padding: 0 3em;
+  padding: 0 3em 2em 3em;
   text-align: justify;
 }
 
 ul {
-  background-color: rgba(200, 200, 200, 0.3);
-  border-radius: 30px;
+  background-color: rgba(200, 200, 200, 0.4);
+  border-radius: 1em;
   text-align: center;
   padding: .5em 0;
   margin-left: 8%;
@@ -60,6 +71,7 @@ ul {
 
 a {
   color: #444545;
+  text-decoration: none;
 }
 
 .parallax a {
@@ -81,12 +93,12 @@ a:hover {
 }
 
 .hr {
-  position: 0 em;
+  background-position: 0 1em;
   background-image: url('../images/chickens1.png');
 }
 
 .ab {
-  top: 20em;
+  background-position: 0 2em;
   background-image: url('../images/cows1.png');
 }
 
@@ -95,8 +107,72 @@ a:hover {
 }
 
 .wtb {
-  background-position: 0 4em;
+  background-position: 0 3em;
   background-image: url('../images/geese1.png');
+}
+
+/*Farm and Farmers*/
+.farm-and-farmers {
+  /*padding: 0 2em;*/
+}
+
+.op {
+  height: 8em;
+  background-position: top left;
+}
+
+.op ul {
+  width: 60%;
+  padding: .1em 0 0 1em;
+  top: .5em;
+  left: 5.5em;
+  display: table;
+}
+
+.op li {
+
+  display: inline;
+  display: table-cell;
+}
+
+.bio h3 {
+  text-align: left;
+  padding: 0 0 1em 6em;
+}
+
+.bio img, .sm {
+  float: left;
+  width: 45%;
+  padding: 0 3em 1em 3em;
+}
+
+.abby {
+  min-height: 20em;
+}
+
+.jake {
+  min-height: 26em;
+}
+
+.farm {
+  min-height: 55em;
+}
+
+.farm h3 {
+  text-align: left;
+  padding: 0 0 1em 3em;
+}
+
+.lg {
+  width: 100%;
+  padding: 0 3em 2em 3em;
+}
+
+/*Footer Styling*/
+
+footer {
+  font-size: .5em;
+  padding-bottom: 2em;
 }
 
 .footer-logo, .footer-icons {
